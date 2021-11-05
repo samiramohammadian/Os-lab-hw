@@ -47,28 +47,28 @@ while(True) :
         a=int(input())
         a=a*math.pi/180
         s=math.sin(a)
-        print (" sin ", a , "=" , s)
+        print (" sin ", "=" , s)
 
     elif x==6 :
         print (" zaviye morede nazar khod ra vared konid :   \n")
         a=int(input())
         a=a*math.pi/180
         s=math.cos(a)
-        print (" cos ", a , "=" , s)
+        print (" cos ", "=" , s)
 
     elif x==7 :
         print (" zaviye morede nazar khod ra vared konid :   \n")
         a=int(input())
         a=a*math.pi/180
         s=math.tan(a)
-        print (" tan ", a , "=" , s)
+        print (" tan " , "=" , s)
 
     elif x==8 :
         print (" zaviye morede nazar khod ra vared konid :   \n")
         a=int(input())
         a=a*math.pi/180
         s=1/math.tan(a)
-        print (" cot ", a , "=" , s)
+        print (" cot " , "=" , s)
 
     elif x==9 :
         print (" zaviye morede nazar khod ra vared konid :   \n")
