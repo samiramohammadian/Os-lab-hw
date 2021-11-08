@@ -20,10 +20,12 @@ def load_data ():
 
         for i in range(0 , len(words) , 2):
             WORDS_BANK.append({'english' : words[i] , 'persian' : words[i+1] } ) 
-        print("cant open this file ")
+       
+        print("Loaded !! \n")
         
     except :
-        print("Loaded !! \n")
+        
+        print("cant open this file ")
         
 
 
