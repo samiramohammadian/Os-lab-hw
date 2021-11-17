@@ -16,4 +16,4 @@ for i in range(8):
         if(g[x]==0):
             g[x]=1
             break
-    print(boys[y]," + ",girls[x])    
+    print(boys[y]," 💞 ",girls[x])    
