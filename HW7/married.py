@@ -1,7 +1,7 @@
 import random
 import array 
-boys=["ali","reza","vahid","saeed","amir","farhad","farshad","akbar"]
-girls=["mina","shiva","roya","tina","donya","mahsa","sheyda","felora"]
+boys = ["ali", "reza","yasin", "benyamin", "mehrdad", "sajjad", "aidin", "shahin"]
+girls = ["sara", "zari", "neda", "homa", "eli" , "goli" , "mary" , "mina"]
 b=[0,0,0,0,0,0,0,0]
 g=[0,0,0,0,0,0,0,0]
 a = array.array('i')
