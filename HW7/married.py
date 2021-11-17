@@ -1,27 +1,19 @@
 import random
-import array
-boys = ["ali", "reza", "yasin", "benyamin", "mehrdad", "sajjad", "aidin", "shahin"]
-girls = ["sara", "zari", "neda", "homa" ,"eli", "goli","mary", "mina"]
-
-a=[]
-
-k=True
-while True:
-    if k==True:
-        married_b=random.choice(boys)
-        married_g=random.choice(girls)
-        b=[married_g , married_b]
-        
-        for i in range(8): 
-            if b != a:
-                print(married_g , "with" , married_b)
-                a.append(b)
-                break
-            
-    print("edaME MIDI? ")
-    c=input("edame midi (yes/no")
-    if c == "yes":
-        k=True
-    else :
-        k=False
-        break
+import array 
+boys=["ali","reza","vahid","saeed","amir","farhad","farshad","akbar"]
+girls=["mina","shiva","roya","tina","donya","mahsa","sheyda","felora"]
+b=[0,0,0,0,0,0,0,0]
+g=[0,0,0,0,0,0,0,0]
+a = array.array('i')
+for i in range(8):
+    while True:
+        y = random.randint(0,7)
+        if(b[y]==0):
+            b[y]=1
+            break
+    while True:
+        x = random.randint(0,7)
+        if(g[x]==0):
+            g[x]=1
+            break
+    print(boys[y]," + ",girls[x])    
