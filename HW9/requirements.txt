@@ -1,0 +1,5 @@
+gTTS
+pyTelegramBotAPI
+Image
+qrcode
+khayyam
